@@ -1,0 +1,6 @@
+[package]
+name = "modulo-domain"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
