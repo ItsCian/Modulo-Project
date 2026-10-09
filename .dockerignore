@@ -1,0 +1,9 @@
+target/
+**/node_modules/
+web/build/
+web/.svelte-kit/
+.git/
+.env
+.env.*
+!.env.example
+.github/

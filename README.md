@@ -16,3 +16,11 @@ Modular multi-tenant platform for daily sales reconciliation.
 ## Workflow
 Short-lived branches from `main`, one pull request per Linear issue, squash merge.
 Branch names come from Linear. Commits follow Conventional Commits and mention the issue, for example `feat(api): add health route (MD-18)`.
+
+## Run with Docker
+
+cp .env.example .env   # then edit the values
+docker compose up --build
+
+- Web: http://localhost:3000
+- API: http://localhost:8080/health
